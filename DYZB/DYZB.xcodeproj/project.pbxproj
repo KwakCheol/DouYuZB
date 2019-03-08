@@ -40,6 +40,7 @@
 			children = (
 				48333F212231F9A00083A351 /* DYZB */,
 				48333F202231F9A00083A351 /* Products */,
+				48333F262231F9A00083A351 /* Main.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +57,9 @@
 			children = (
 				48333F222231F9A00083A351 /* AppDelegate.swift */,
 				48333F242231F9A00083A351 /* ViewController.swift */,
-				48333F262231F9A00083A351 /* Main.storyboard */,
-				48333F292231F9A30083A351 /* Assets.xcassets */,
 				48333F2B2231F9A30083A351 /* LaunchScreen.storyboard */,
 				48333F2E2231F9A30083A351 /* Info.plist */,
+				48333F292231F9A30083A351 /* Assets.xcassets */,
 			);
 			path = DYZB;
 			sourceTree = "<group>";
@@ -282,8 +282,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DYZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,8 +301,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DYZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
